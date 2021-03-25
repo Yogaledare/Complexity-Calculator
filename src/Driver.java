@@ -22,10 +22,9 @@ public class Driver {
 
         ComplexityCalculator complexityCalculator = new ComplexityCalculator(tFunctions, xs, biggestProblemConstant);
         complexityCalculator.runTests();
+
     }
 
 }
-
-
 
 
