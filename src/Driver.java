@@ -35,6 +35,8 @@ public class Driver {
 
 
 
+
+
 //        runTests(tFunctions, xs, biggestProblemConstant);
 /*    public void runTests(List<TFunction> tFunctions, List<Double> xs, double constant) {
         for (int i = 0; i < tFunctions.size(); i++) {
@@ -55,9 +57,6 @@ public class Driver {
 
 
     }*/
-
-
-
 
 
 

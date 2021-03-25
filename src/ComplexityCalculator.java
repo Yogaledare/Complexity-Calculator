@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class ComplexityCalculator {
@@ -53,8 +52,6 @@ public class ComplexityCalculator {
         }
         return xn;
     }
-
-
 
 
 }
