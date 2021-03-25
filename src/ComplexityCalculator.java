@@ -61,35 +61,3 @@ public class ComplexityCalculator {
 
 
 
-
-
-
-
-//    public static List<Double> findOutputs(TFunction tFunction, List<Double> xs) {
-//        List<Double> outputs = new ArrayList<>();
-//        for (Double x : xs) {
-//            outputs.add(tFunction.apply(x));
-//        }
-//        return outputs;
-//    }
-//
-//
-//    public static List<Double> findOutputScaleFactors(List<Double> outputs) {
-//        List<Double> scaleFactors = new ArrayList<>();
-//
-//        for (Double output : outputs) {
-//            scaleFactors.add(output / outputs.get(0));
-//        }
-//        return scaleFactors;
-//    }
-
-//
-//    public static double findScaleFactor(TFunction tFunction, ) {
-//
-//    }
-
-
-
-
-        /*TFunction tFunction, List<Double> xs) */
-//        List<Double> outputs = findOutputs(tFunction, xs);
