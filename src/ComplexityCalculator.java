@@ -15,6 +15,7 @@ public class ComplexityCalculator {
     }
 
 
+    // Run tests and print results for all tFunctions at all xs
     public void runTests() {
         for (int i = 0; i < tFunctions.size(); i++) {
             TFunction f = tFunctions.get(i);
@@ -32,12 +33,14 @@ public class ComplexityCalculator {
     }
 
 
+    // Find derivate of f(x) at point x by symmetric difference quotient
     private static double findDerivative(TFunction tFunction, double x) {
         double dx = 0.0001;
         return (tFunction.apply(x + dx) - tFunction.apply(x - dx)) / (2 * dx);
     }
 
 
+    // find intersection of f(x) - constant = 0 with Newton Raphsons method
     public static double findIntersectionWithConstant(TFunction tFunction, double constant, double initialGuess) {
         double errorTolerance = 0.01;
         TFunction f = x -> tFunction.apply(x) - constant;
