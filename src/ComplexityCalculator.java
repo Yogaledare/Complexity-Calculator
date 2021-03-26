@@ -40,7 +40,7 @@ public class ComplexityCalculator {
     }
 
 
-    // find intersection of f(x) - constant = 0 with Newton Raphsons method
+    // find root of f(x) - constant = 0 with Newton Raphsons method
     public static double findIntersectionWithConstant(TFunction tFunction, double constant, double initialGuess) {
         double errorTolerance = 0.001;
         TFunction f = x -> tFunction.apply(x) - constant;
